@@ -1,0 +1,54 @@
+# ----------------------------------------------------
+# Wildcards
+# ----------------------------------------------------
+
+*~
+*.elc
+\#*
+.\#*
+.*.lock
+*.log
+*.swp
+.lsp-session*
+session*
+/session.*
+/elpa-*
+/eln-*
+
+# ----------------------------------------------------
+# Files
+# ----------------------------------------------------
+
+.bookmarks.el
+.achievements
+.dir-locals.el
+.lsp-session
+.last-package-update-day
+.dir-locals.el
+projectile-bookmarks.eld
+projectile.cache
+ido.last
+network-security.data
+
+# ----------------------------------------------------
+# Directories
+# ----------------------------------------------------
+
+/.notes
+/history
+/auto-save-list
+/cache
+/.cache
+/depend
+/.depend
+/var
+/eln-cache
+/el-get
+/elpa
+/elpy
+/url
+/transient
+/.session
+/tutorial
+
+# ----------------------------------------------------
