@@ -24,7 +24,7 @@
 ;; Path : File Backups - Saved to cache
 ;; ----------------------------------------------------------------------
 
-(setq backup-directory-alist '((".*" . "~/.cache/emacs_backups")))
+(setq backup-directory-alist '((".*" . "~/.cache/emacs-backups")))
 
 ;; ----------------------------------------------------------------------
 ;; Path : Themes
