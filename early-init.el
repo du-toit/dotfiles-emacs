@@ -2,6 +2,13 @@
 ;; Window Settings
 ;; -------------------------------------------------------------------
 
+;; Setting the face in here prevents flashes of
+;; color as the theme gets activated
+(setq default-frame-alist '(
+      (background-color . "#282a36")
+      (ns-appearance . dark)
+      (ns-transparent-titlebar . t)))
+
 ;; Constant height & width of the frame / window
 (defconst HEIGHT '(height . 42))
 (defconst WIDTH  '(width  . 140))
