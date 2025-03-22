@@ -1,3 +1,3 @@
 <h1 align="center">
-  Dotfiles : Emacs [WIP]
+  Dotfiles : Emacs
 </h1>
