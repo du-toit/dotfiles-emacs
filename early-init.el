@@ -1,26 +1,15 @@
-;; -------------------------------------------------------------------
-;; Settings - Frame
-;; -------------------------------------------------------------------
 
 ;; Setting the face in here prevents flashes of
 ;; color as the theme gets activated
-
 (setq default-frame-alist '(
-      (background-color . "#2e3440")
-      (ns-appearance . dark)
-      (ns-transparent-titlebar . t)))
+      (background-color . "#282a36")
+      (ns-appearance . dark)))
 
-;; -------------------------------------------------------------------
-;; Settings - Buffer
-;; -------------------------------------------------------------------
-
-;; Removes the emacs "welcome" page or whatever the fuck it is
-(setq inhibit-startup-message t)
-
-;; Disable the toolbar
-(tool-bar-mode -1)
-
-;; -------------------------------------------------------------------
+;; Setting the face in here prevents flashes of
+;; color as the theme gets activated
+(setq initial-frame-alist '(
+      (background-color . "#282a36")
+      (ns-appearance . dark)))
 
 (provide 'early-init)
 
