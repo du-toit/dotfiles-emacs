@@ -24,6 +24,8 @@
 
 (require 'core-path)
 (require 'core-theme)
+(require 'core-frame)
+(require 'core-editing)
 
 ;; -------------------------------------------------------------------------------------------------------
 
