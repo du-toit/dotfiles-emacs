@@ -1,5 +1,5 @@
 ;; -------------------------------------------------------------------
-;; Window Settings
+;; Settings - Frame
 ;; -------------------------------------------------------------------
 
 ;; Setting the face in here prevents flashes of
@@ -9,6 +9,13 @@
       (background-color . "#2e3440")
       (ns-appearance . dark)
       (ns-transparent-titlebar . t)))
+
+;; -------------------------------------------------------------------
+;; Settings - Buffer
+;; -------------------------------------------------------------------
+
+;; Removes the emacs "welcome" page or whatever the fuck it is
+(setq inhibit-startup-message t)
 
 ;; -------------------------------------------------------------------
 
