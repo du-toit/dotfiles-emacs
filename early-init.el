@@ -17,6 +17,9 @@
 ;; Removes the emacs "welcome" page or whatever the fuck it is
 (setq inhibit-startup-message t)
 
+;; Disable the toolbar
+(tool-bar-mode -1)
+
 ;; -------------------------------------------------------------------
 
 (provide 'early-init)
